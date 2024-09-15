@@ -1,0 +1,101 @@
+body {
+    font-family: 'Josefin Sans', sans-serif; 
+    background-color: #000; 
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+}
+
+
+#landing-page {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    height: 100vh; 
+    align-items: center; 
+    padding: 20px ;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.left-side h1 {
+    font-size: 4rem; 
+    font-weight: bold;
+    margin: 0;
+}
+
+.left-side h2 {
+    font-size: 2rem; 
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.left-side img {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.right-side {
+    padding-left: 20px;
+}
+
+.right-side h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.right-side p {
+    line-height: 1.6;
+}
+
+main {
+    padding: 40px 0;}
+
+#education {
+    margin: 10vh;
+    padding: 20px;
+}
+
+#education {
+    margin: 10vh;
+    padding: 20px;
+}
+#additional-experience {
+    margin: 10vh;
+    padding: 20px;
+    }
+
+#skills-interests {
+    margin: 10vh;
+    padding: 20px;
+    }
+
+#my-values {
+    width: 70%;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #111; 
+    border-radius:
+}
+
+#experience {
+    width: 70%;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #111; 
+    border-radius: }
+
+footer > p {  width: 70%;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #111; 
+    border-radius: }
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
